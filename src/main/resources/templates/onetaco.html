@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" href="styles.css"></link>
+
+<head>
+<title>Single Reviews</title>
+</head>
+
+<body>
+	<div class="container">
+
+		<div>
+			<h3>
+				<p th:text="${singleReview.title}"></p>
+			</h3>
+
+			<img class="images" th:src="${singleReview.imageURL}" />
+			<p th:text="${singleReview.description}"></p>
+			<p th:text="${singleReview.taste}"></p>
+
+			<a th:href="@{/allreviews(title=${reviewAsCollection})}">Click to go back to all the reviews</a>
+		</div>
+
+	</div>
+</body>
+</html>
