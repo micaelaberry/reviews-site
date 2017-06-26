@@ -5,7 +5,9 @@
 <head>
 <title>Single Reviews</title>
 </head>
-
+<header>
+	<h1>Columbus Tacos Reviews</h1>
+</header>
 <body>
 	<div class="container">
 
@@ -18,7 +20,8 @@
 			<p th:text="${singleReview.description}"></p>
 			<p th:text="${singleReview.taste}"></p>
 
-			<a th:href="@{/allreviews(title=${reviewAsCollection})}">Click to go back to all the reviews</a>
+			<a th:href="@{/allreviews(title=${reviewAsCollection})}">Click to
+				go back to all the reviews</a>
 		</div>
 
 	</div>

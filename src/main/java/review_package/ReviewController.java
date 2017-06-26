@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class ReviewController { // handles requests in browser
 
 	@Resource
-	ReviewRepo reviewRepo = new ReviewRepo();
+	ReviewRepository reviewRepo = new ReviewRepository();
 
 	@RequestMapping("/allreviews")
 	public String fetchReview(Model model) {

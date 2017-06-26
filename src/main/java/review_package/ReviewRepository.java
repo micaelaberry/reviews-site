@@ -11,11 +11,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Component
-public class ReviewRepo {
+public class ReviewRepository {
 
 	protected Map<Long, TacoReview> reviews = new HashMap<>();
 
-	public ReviewRepo() {
+	public ReviewRepository() {
 		TacoReview condadoTacos = new TacoReview(1, "Condado", "images/condadoTacos.jpeg",
 				"4 out of 5 Tacos!",
 				"Condado Tacos... This establishment seems to be the new hip place to visit for DIY tacos. They have a "
