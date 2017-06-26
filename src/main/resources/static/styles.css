@@ -5,13 +5,13 @@ html {
 header {
 	padding: 10px;
 	color: white;
-	background-color: black;
+	background-color: #FC4A1A;
 	display: flex;
 	justify-content: space-between;
 }
 
 body {
-	background: black no-repeat;
+	background: #F7B733 no-repeat;
 	background-size: 1500px;
 	background-attachment: fixed;
 }
@@ -22,12 +22,16 @@ body {
 	margin: 0 auto;
 }
 
-h2 {
+h1 {
+	text-align: center;
+}
+
+h4 {
 	text-align: center;
 }
 
 h3 {
-	background-color: lightgrey;
+	background-color: #4ABDAC;
 	padding: 10px;
 	margin: left;
 }
