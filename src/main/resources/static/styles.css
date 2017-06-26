@@ -20,6 +20,7 @@ body {
 	background-color: white;
 	max-width: 90%;
 	margin: 0 auto;
+	padding-left: 20px;
 }
 
 h1 {
@@ -44,8 +45,8 @@ h3 {
 }
 
 .images {
-	width: 660px;
-	height: 500px;
+	max-width: 60%;
+	height: auto;
 	margin: 5px;
 	border: solid black;
 }
